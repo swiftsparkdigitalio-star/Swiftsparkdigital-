@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SwiftSpark Digital — Smart Digital Solutions for Growth</title>
+  <meta name="description" content="SwiftSpark Digital — premium digital marketing, automation, and growth solutions built for global scale." />
+  <meta property="og:title" content="SwiftSpark Digital — Smart Digital Solutions for Growth" />
+  <meta property="og:description" content="Premium digital marketing, automation, and growth strategies for startups and enterprises." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://raw.githubusercontent.com/yourusername/swiftspark-site/main/og-image.png" />
+  <meta name="theme-color" content="#0b5cff">
+
+  <!-- Primary styling (inline for fast deploy) -->
+  <style>
+    :root{
+      --accent:#0b5cff;
+      --accent-2:#ff7a00;
+      --bg:#0f1724;
+      --card:#0b1220;
+      --muted:#9aa4b2;
+      --glass: rgba(255,255,255,0.03);
+      --radius:18px;
+      --maxw:1100px;
+      --ff: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;font-family:var(--ff);background:linear-gradient(180deg,#071025 0%, #081627 60%);color:#e6eef7}
+    .wrap{max-width:var(--maxw);margin:40px auto;padding:28px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{display:flex;align-items:center;gap:16px;text-decoration:none;color:inherit}
+    .logo{width:60px;height:60px;background:linear-gradient(135deg,var(--accent),var(--accent-2));display:flex;align-items:center;justify-content:center;border-radius:12px;box-shadow:0 6px 30px rgba(11,92,255,0.16)}
+    .logo svg{width:36px;height:36px;filter:drop-shadow(0 6px 20px rgba(11,92,255,0.14))}
+    h1{margin:0;font-size:20px;letter-spacing:0.3px}
+    nav a{color:var(--muted);text-decoration:none;margin-left:18px;font-weight:600}
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:center;margin-top:36px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); padding:28px;border-radius:20px;box-shadow:0 10px 40px rgba(2,6,23,0.6)}
+    .eyebrow{color:var(--accent-2);font-weight:700;letter-spacing:0.6px}
+    h2{font-size:36px;margin:8px 0 14px;color:#fff}
+    p.lead{color:var(--muted);line-height:1.6}
+    .actions{margin-top:18px;display:flex;gap:12px;flex-wrap:wrap}
+    .btn{display:inline-flex;align-items:center;gap:10px;padding:12px 18px;border-radius:12px;font-weight:700;border:none;cursor:pointer;text-decoration:none}
+    .btn-primary{background:linear-gradient(90deg,var(--accent),#6e8bff);color:#fff;box-shadow:0 8px 30px rgba(11,92,255,0.18)}
+    .btn-ghost{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--muted)}
+    .features{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:22px}
+    .feature{padding:14px;border-radius:12px;background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.02)}
+    .feature h4{margin:0 0 8px;font-size:15px}
+    aside.right{position:relative}
+    .panel{background:linear-gradient(180deg,#071427,#0b1a2b);padding:22px;border-radius:16px}
+    .panel h3{margin:0 0 8px}
+    .panel p{margin:0;color:var(--muted);font-size:14px}
+    .price{display:flex;align-items:baseline;gap:8px;margin-top:14px}
+    .price .num{font-size:28px;font-weight:900;color:#fff}
+    .badge{display:inline-block;background:linear-gradient(90deg,var(--accent-2),#ffc882);color:#0b1220;padding:6px 10px;border-radius:999px;font-weight:800}
+    footer{margin-top:40px;color:var(--muted);font-size:13px;text-align:center;padding:18px 0}
+    .cookie{position:fixed;left:20px;right:20px;bottom:20px;padding:14px;border-radius:12px;background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));display:flex;align-items:center;justify-content:space-between;gap:12px;backdrop-filter: blur(6px);box-shadow:0 10px 40px rgba(2,6,23,0.6)}
+    .cookie p{margin:0;color:var(--muted);font-size:14px}
+    .small{font-size:13px;color:var(--muted)}
+    @media(max-width:900px){.hero{grid-template-columns:1fr;}.logo{width:52px;height:52px}.wrap{margin:18px auto;padding:16px}}
+  </style>
+
+  <!-- Gumroad JS for button -->
+  <script async src="https://gumroad.com/js/gumroad.js"></script>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a class="brand" href="index.html" aria-label="SwiftSpark Digital home">
+        <div class="logo" aria-hidden="true">
+          <!-- Inline SVG logo: lightning + spark -->
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+            <defs>
+              <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+                <stop offset="0" stop-color="#0b5cff"/>
+                <stop offset="1" stop-color="#ff7a00"/>
+              </linearGradient>
+            </defs>
+            <rect width="64" height="64" rx="12" fill="url(#g1)"/>
+            <path d="M22 14 L36 14 L28 32 L42 32 L20 50 L26 30 Z" fill="#fff" opacity="0.96"/>
+          </svg>
+        </div>
+        <div>
+          <h1>SwiftSpark Digital</h1>
+          <div class="small">Smart digital solutions • global growth</div>
+        </div>
+      </a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="mailto:swiftsparkdigital.io@gmail.com">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero" aria-labelledby="hero-heading">
+      <div>
+        <div class="card">
+          <div class="eyebrow">GLOBAL • SCALABLE • PREMIUM</div>
+          <h2 id="hero-heading">We help visionary companies scale faster with data-driven marketing & automation</h2>
+          <p class="lead">SwiftSpark Digital builds growth engines that combine viral content, paid acquisition, and automation so your brand captures global market share quickly — ready for enterprise scale.</p>
+
+          <div class="actions">
+            <!-- Gumroad buy button (uses your Gumroad product link) -->
+            <a class="btn btn-primary" href="https://swiftspark.gumroad.com/l/yefpjqu" target="_blank" rel="noopener noreferrer">
+              <svg width="16" height="16" viewBox="0 0 24 24" style="transform:translateY(1px)"><path fill="white" d="M12 2L2 7v7c0 5 5 9 10 9s10-4 10-9V7l-10-5z"/></svg>
+              Get Our Growth Kit
+            </a>
+
+            <a class="btn btn-ghost" href="mailto:swiftsparkdigital.io@gmail.com">Request a demo</a>
+          </div>
+
+          <div class="features" style="margin-top:20px">
+            <div class="feature">
+              <h4>Global Campaigns</h4>
+              <div class="small">Localized ads & content in 20+ languages.</div>
+            </div>
+            <div class="feature">
+              <h4>Automations</h4>
+              <div class="small">Email, CRM & workflows wired to revenue.</div>
+            </div>
+            <div class="feature">
+              <h4>Creative That Converts</h4>
+              <div class="small">Short-form video, landing pages & funnels.</div>
+            </div>
+            <div class="feature">
+              <h4>Analytics & Ops</h4>
+              <div class="small">Clear KPIs and scale playbooks for growth.</div>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-top:18px;color:var(--muted)" class="small">
+          <strong>Launch Ready:</strong> Website, payments via Gumroad, and email automation ready to test. Replace the Gumroad link with your live product page if needed.
+        </div>
+      </div>
+
+      <aside class="right">
+        <div class="panel card">
+          <h3>Premium Growth Pack</h3>
+          <p class="small">One-off growth kit + onboarding to set up your first funnel and automation flow.</p>
+          <div class="price">
+            <div class="num">$29</div>
+            <div class="small">one-time • global</div>
+          </div>
+
+          <div style="margin-top:14px">
+            <!-- Gumroad inline embed button -->
+            <a class="gumroad-button" href="https://swiftspark.gumroad.com/l/yefpjqu">Buy the Growth Kit</a>
+          </div>
+
+          <div style="margin-top:14px">
+            <div class="badge">Global • Enterprise-ready</div>
+          </div>
+
+          <hr style="border:none;height:1px;background:rgba(255,255,255,0.03);margin:16px 0;border-radius:6px">
+
+          <p class="small"><strong>Why SwiftSpark?</strong> We blend creative virality with technical automation — designed to scale from 0 to millions of users while optimizing unit economics for valuation growth.</p>
+        </div>
+      </aside>
+    </section>
+
+    <footer>
+      <div class="small">© <span id="year"></span> SwiftSpark Digital • <a href="privacy.html">Privacy Policy</a></div>
+    </footer>
+  </div>
+
+  <!-- Cookie/privacy bar -->
+  <div class="cookie" id="cookie">
+    <p>We use cookies and tracking to improve performance and deliver personalized content. By using this site you agree to our <a href="privacy.html">Privacy Policy</a>.</p>
+    <div style="display:flex;gap:12px">
+      <button class="btn btn-ghost" onclick="document.getElementById('cookie').style.display='none'">Dismiss</button>
+      <a class="btn btn-primary" href="privacy.html">Read policy</a>
+    </div>
+  </div>
+
+  <script>
+    // small utilities
+    document.getElementById('year').textContent = new Date().getFullYear();
+    // If you want to remove cookie bar permanently, store consent in localStorage (simple)
+    if(localStorage.getItem('swiftspark_cookie_accepted')) {
+      document.getElementById('cookie').style.display = 'none';
+    } else {
+      document.querySelector('.cookie button').addEventListener('click', function(){
+        localStorage.setItem('swiftspark_cookie_accepted', '1');
+      });
+    }
+  </script>
+</body>
+</html>
